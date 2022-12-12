@@ -10,9 +10,18 @@
   "description": "Login Authentication",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "author": "Henry",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Henman2/mc_signup_project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Henman2/mc_signup_project/issues"
+  },
+  "homepage": "https://github.com/Henman2/mc_signup_project#readme"
 }
