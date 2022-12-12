@@ -1,27 +1,24 @@
 {
-  "dependencies": {
-    "@mailchimp/mailchimp_marketing": "^3.0.80",
-    "body-parser": "^1.20.1",
-    "express": "^4.18.2",
-    "nodemon": "^2.0.20"
-  },
   "name": "mailchamp_signup_project",
   "version": "1.0.0",
-  "description": "Login Authentication",
+  "description": "news letter signup api project",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Henry",
-  "license": "ISC",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Henman2/mc_signup_project.git"
   },
+  "author": "Henry",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/Henman2/mc_signup_project/issues"
   },
-  "homepage": "https://github.com/Henman2/mc_signup_project#readme"
+  "homepage": "https://github.com/Henman2/mc_signup_project#readme",
+  "dependencies": {
+    "@mailchimp/mailchimp_marketing": "^3.0.80",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2"
+  }
 }
